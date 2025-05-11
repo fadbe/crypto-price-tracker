@@ -22,19 +22,6 @@ A responsive React + Redux Toolkit web application that displays simulated real-
 - **Chart.js** via `react-chartjs-2`
 - **Lucide-react** for icons
 
-## 📁 Folder Structure
-
-crypto-price-tracker/
-├── src/
-│ ├── assets/ # Crypto data and icons
-│ ├── components/ # Table, Header, Filter, Toggle, etc.
-│ ├── redux/ # Store & cryptoSlice
-│ ├── utils/ # Formatters for currency and numbers
-│ └── App.jsx # Main entry
-├── public/ # Static assets
-├── README.md
-└── vite.config.js
-
 📝 License
 This project is licensed under the MIT License — feel free to use and modify for learning or demonstration.
 
