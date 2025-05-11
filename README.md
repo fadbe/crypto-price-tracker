@@ -2,7 +2,7 @@
 
 A responsive React + Redux Toolkit web application that displays simulated real-time cryptocurrency data, similar to platforms like CoinMarketCap. Built for learning and demonstration purposes.
 
-![Crypto Price Tracker Demo](https://i.imgur.com/JQZ5Pmw.png)
+![Crypto Price Tracker Demo](https://crypto-price-tracker-black.vercel.app/)
 
 ## 🚀 Features
 
@@ -39,4 +39,4 @@ crypto-price-tracker/
 This project is licensed under the MIT License — feel free to use and modify for learning or demonstration.
 
 🔗 Live Link
-View Live Site
+ https://crypto-price-tracker-black.vercel.app/
