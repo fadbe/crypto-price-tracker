@@ -1,55 +1,42 @@
-# Real-Time Crypto Price Tracker
+# 💹 Real-Time Crypto Price Tracker
 
-A responsive React + Redux Toolkit web application that displays real-time cryptocurrency data with simulated live updates.
+A responsive React + Redux Toolkit web application that displays simulated real-time cryptocurrency data, similar to platforms like CoinMarketCap. Built for learning and demonstration purposes.
 
-![Crypto Price Tracker Screenshot](https://i.imgur.com/JQZ5Pmw.png)
+![Crypto Price Tracker Demo](https://i.imgur.com/JQZ5Pmw.png)
 
-## Features
+## 🚀 Features
 
-- Real-time cryptocurrency data table with simulated price updates every 1-2 seconds
-- Complete data display including price, percentage changes, market cap, volume, and supply metrics
-- Redux Toolkit state management with proper slices and selectors
-- Responsive table design that works on all screen sizes
-- Color-coded price changes (green for positive, red for negative)
-- Sorting functionality for all table columns
-- Filtering options (All, Gainers, Losers)
-- Light and dark mode toggle with persistent preference
+- 💰 **Live Price Updates** (mocked using `setInterval` every 1–2 seconds)
+- 📊 **Detailed Data Table**: Price, % change (1h/24h/7d), market cap, volume, supply
+- 📈 **7-Day Chart** (static image or SVG)
+- 🎨 **Color Coding**: Green for gains, red for losses
+- 🌙 **Light/Dark Mode** toggle with persistence
+- 🔍 **Sorting & Filtering** (e.g., top gainers, losers)
+- 📱 **Fully Responsive Design**
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- React 18
-- Redux Toolkit (createSlice, configureStore)
-- Chart.js with react-chartjs-2 for sparkline charts
-- Tailwind CSS for styling
-- Lucide React for icons
+- **React 18 + Vite**
+- **Redux Toolkit** (`createSlice`, `configureStore`)
+- **Tailwind CSS** (for modern styling)
+- **Chart.js** via `react-chartjs-2`
+- **Lucide-react** for icons
 
-## Setup Instructions
+## 📁 Folder Structure
 
-1. Clone the repository
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Start the development server:
-   ```
-   npm run dev
-   ```
-4. Open your browser at http://localhost:5173
+crypto-price-tracker/
+├── src/
+│ ├── assets/ # Crypto data and icons
+│ ├── components/ # Table, Header, Filter, Toggle, etc.
+│ ├── redux/ # Store & cryptoSlice
+│ ├── utils/ # Formatters for currency and numbers
+│ └── App.jsx # Main entry
+├── public/ # Static assets
+├── README.md
+└── vite.config.js
 
-## Project Structure
+📝 License
+This project is licensed under the MIT License — feel free to use and modify for learning or demonstration.
 
-- `src/data/` - Sample crypto asset data
-- `src/redux/` - Redux store setup and slices
-- `src/components/` - UI components
-- `src/utils/` - Utility functions for formatting data
-
-## Implementation Details
-
-- Uses `setInterval` to simulate real-time data updates
-- Manages all state with Redux Toolkit
-- Implements responsive design for all device sizes
-- Features subtle animations for price changes
-
-## License
-
-MIT
+🔗 Live Link
+View Live Site
